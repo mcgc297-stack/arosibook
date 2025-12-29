@@ -2,10 +2,75 @@
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
-    <title>গল্পের ভুবন</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>গল্পের ডায়েরি | লেখিকার নাম</title>
+    <style>
+        /* CSS: ওয়েবসাইটকে সুন্দর করার কোড */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fdf6f0; /* হালকা ক্রিম রঙ */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #5d4037; /* খয়েরি রঙ */
+            color: white;
+            padding: 50px 20px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 { margin: 0; font-size: 2.5em; }
+        .book-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .book-card:hover { transform: scale(1.02); }
+        .buy-btn {
+            background-color: #e67e22;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>আমার প্রিয়তমার গল্পের ওয়েবসাইট</h1>
-    <p>এখানে সুন্দর সুন্দর গল্প এবং বই পাওয়া যাবে। খুব শীঘ্রই আসছে!</p>
+
+    <header>
+        <h1>গল্পের ডায়েরি</h1>
+        <p>আপনার প্রিয়তমার শ্রেষ্ঠ গল্পগুলোর সংগ্রহ</p>
+    </header>
+
+    <div class="container">
+        <h2>প্রকাশিত বই ও গল্পসমূহ</h2>
+        
+        <div class="book-card">
+            <h3>গল্পের নাম: নীল খাম</h3>
+            <p>এটি একটি ছোট গল্পের বই। এই গল্পের বর্ণনা এখানে থাকবে...</p>
+            <p><strong>মূল্য: ১০০ টাকা</strong></p>
+            <a href="#" class="buy-btn">বইটি কিনুন</a>
+        </div>
+
+        <div class="book-card">
+            <h3>গল্পের নাম: শেষের কবিতা (নতুন)</h3>
+            <p>আরেকটি অসাধারণ গল্পের বর্ণনা এখানে থাকবে...</p>
+            <p><strong>মূল্য: ১৫০ টাকা</strong></p>
+            <a href="#" class="buy-btn">বইটি কিনুন</a>
+        </div>
+    </div>
+
 </body>
 </html>
